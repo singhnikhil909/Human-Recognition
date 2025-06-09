@@ -145,8 +145,8 @@ class PersonDetector:
 
 def main():
     # Example usage
-    video_path = r"C:\Users\NikhilSingh\Downloads\face-demographics-walking-and-pause.mp4" # Replace with your video path
-    output_video_path = r"C:\Users\NikhilSingh\Downloads\output_video.mp4"  # Optional: for visualization
+    video_path = r"" # Replace with your video path
+    output_video_path = r""  # Optional: for visualization
     
     detector = PersonDetector(video_path, output_video_path)
     results = detector.process_video()
