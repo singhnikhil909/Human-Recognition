@@ -32,7 +32,7 @@ pip install -r requirements.txt
 2. Modify the `video_path` in `person_detector.py` to point to your video file
 3. Run the script:
 ```bash
-python person_detector.py
+python app.py
 ```
 
 The script will:
