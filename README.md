@@ -27,18 +27,17 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-
-1. Place your input video in the project directory
-2. Modify the `video_path` in `person_detector.py` to point to your video file
-3. Run the script:
+Run the script:
 ```bash
 python app.py
 ```
+It will run on the development server http://127.0.0.1:5000
 
 The script will:
 - Process the video and detect people
 - Generate a JSON file (`person_tracks.json`) with timestamps
 - Optionally create a labeled video (`output_video.mp4`) with bounding boxes
+  
 
 ## Output Format
 
