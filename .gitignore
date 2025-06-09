@@ -1,0 +1,25 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Upload directory
+/uploads/
+
+# Output files
+person_tracks.json
+
+# YOLO model file
+yolov8n.pt
+
+# Virtual environment
+venv/
+env/
+.env/
+.venv/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo 
