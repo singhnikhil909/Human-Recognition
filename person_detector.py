@@ -165,7 +165,12 @@ class PersonDetector:
 
 def main():
     # Example usage
+<<<<<<< HEAD
     video_path = r"C:\Users\NikhilSingh\Downloads\face-demographics-walking-and-pause.mp4" # Replace with your video path
+=======
+    video_path = r"" # Replace with your video path
+    output_video_path = r""  # Optional: for visualization
+>>>>>>> 7101f453702b6a04875a4343a55633ec2c374f74
     
     try:
         detector = PersonDetector(video_path)
