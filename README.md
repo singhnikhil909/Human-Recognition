@@ -69,6 +69,6 @@ Each person is assigned a unique ID, and their presence in the video is recorded
 ## Notes
 
 - The tool uses YOLOv8 for person detection
-- A confidence threshold of 0.5 is used for detections
+- A confidence threshold of 0.7 is used for detections
 - Time segments are merged if the gap between appearances is less than 1 second
 - The tracking algorithm uses a simple overlap-based approach to maintain person identity 
